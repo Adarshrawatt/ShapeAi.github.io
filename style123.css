@@ -1,0 +1,68 @@
+header{
+    display: flex;
+}
+
+header .navbar nav ul {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 45px;
+    list-style-type: none;
+}
+
+header .navbar nav ul li a{
+    margin:15px;
+    padding:15px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+header .navbar nav ul li a:hover{
+    background: green;
+    color: white;
+    /* padding: 20px; */
+}
+
+header .sayhi a{
+    color: green;
+     padding: 18px;
+}
+
+header .sayhi{
+    margin-left: 85px;
+    margin-top: 45px;
+   
+}
+
+header .sayhi a:hover{
+    background: green;
+    color: black;
+}
+
+main .img img{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+main{
+    display: flex;
+}
+
+main .writtingContent{
+    width: 500px;
+    margin-top: 90px;
+    margin-left: 215px;
+}
+
+main .writtingContent h1{
+    width: 400px;
+    font-size: 50px;
+}
+
+main .writtingContent button{
+    background-color: green;
+    color: white;
+    margin: 20px 0px;
+    border-radius: 20px;
+    width: 130px;
+    height: 35px;
+}
